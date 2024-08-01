@@ -9,9 +9,10 @@ git init > inicia um repositório
 git add * > Para o projeto começar a ser monitorado.
 git commit -m "comentario" > Para commitar todos os arquivo 
 git commit nomedoarquivo -m "Comentário" > para commitar um unido arquivo específico
-git branch main 
+git branch -m main 
 git push --set-upstream oringin main = Para enviar o branch atual e definir o remoto como upstream
-
+git remote add origin endereço da branch > Endereço de onde está o repositório
+git push -u oringin main > Enviamos para o repositório
 
 
 
@@ -20,3 +21,7 @@ Dicas siglas ao lado no nome do arquivo 👽
 U - Untracked files > quer dizer que o arquivo ainda não está sendo monitorado pelo git 
 M - Modified > Quando o arquivo foi modificado 
 A - >quer dizer que o arquivo já está sendo monitorado pelo git
+
+
+Repositórios 📤📥
+
