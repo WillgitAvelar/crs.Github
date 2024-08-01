@@ -1,0 +1,22 @@
+Aprendendo Git é só uma forma de deixar anotado um pouco do que conheçao em forma de rascunho para quando houver dúvida.
+"Antes de me criticarem, sei que posso dar um git help e ter essas informações, mas essa foi a forma que encontrei para aprender sem colar" 😕
+
+Alguns comandos  🧮
+
+git help > 
+git status > Verifica o que foi feito dentro do repositório
+git init > inicia um repositório
+git add * > Para o projeto começar a ser monitorado.
+git commit -m "comentario" > Para commitar todos os arquivo 
+git commit nomedoarquivo -m "Comentário" > para commitar um unido arquivo específico
+git branch main 
+git push --set-upstream oringin main = Para enviar o branch atual e definir o remoto como upstream
+
+
+
+
+Dicas siglas ao lado no nome do arquivo 👽
+
+U - Untracked files > quer dizer que o arquivo ainda não está sendo monitorado pelo git 
+M - Modified > Quando o arquivo foi modificado 
+A - >quer dizer que o arquivo já está sendo monitorado pelo git
