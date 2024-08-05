@@ -13,7 +13,8 @@ git branch -m main
 git push --set-upstream oringin main = Para enviar o branch atual e definir o remoto como upstream
 git remote add origin endereço da branch > Endereço de onde está o repositório
 git push -u oringin main > Enviamos para o repositório
-
+git log  > Nos informa detalhadamente tudo realizado na branche - para sair aperta q 
+git checkout nome.do.arquivo > Faz ou rowback do ultimo status do arquivo
 
 
 Dicas siglas ao lado no nome do arquivo 👽
