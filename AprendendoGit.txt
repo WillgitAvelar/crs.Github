@@ -15,7 +15,18 @@ git remote add origin endereço da branch > Endereço de onde está o repositór
 git push -u oringin main > Enviamos para o repositório
 git log  > Nos informa detalhadamente tudo realizado na branche - para sair aperta q 
 git checkout nome.do.arquivo > Faz ou rowback do ultimo status do arquivo
-Git ignore - para ignorar alguns arquivo e não envia-los ao github - para isso temos que criar um aqruivo .gitignore e vamos escrevendo o nome dos arquivos que não queremos enviar
+git ignore - para ignorar alguns arquivo e não envia-los ao github - para isso temos que criar um aqruivo .gitignore e vamos escrevendo o nome dos arquivos que não queremos enviar
+git reset --hard origin/main> Volta ao estado inicial do codigo - quando vc dá os commit senter dado push - pucha da main do github "rowback"
+git branch > nos mostra quais a branch temos no projeto o * nos mostra a branch em que estamos trabalhando 
+git branch NomeDabranch >cria uma branch
+git checkout NomeDabranch > muda de branch 
+git chackout -b "NomeDabranch" >Cria a branch e já começa a usa-la sem ter que faze checkout
+git branch -d NomeDabranch > deleta a branch
+git merge NomeDabranch > unifica as branch  - Lembrando que temos que estar na main para unir o que queremos
+git stach > busca a ultima versão da main
+
+
+
 
 Dicas siglas ao lado no nome do arquivo 👽
 
